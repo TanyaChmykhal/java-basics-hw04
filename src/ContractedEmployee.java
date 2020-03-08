@@ -5,8 +5,8 @@ public class ContractedEmployee extends Employee {
     String employeeId;
     String name;
     String federalTaxId;
-    double hourlyRate = 25.33;
-    double numberOfHoursWorked = 1.5;
+    double hourlyRate;
+    double numberOfHoursWorked;
 
     public ContractedEmployee(String employeeId, String name, String federalTaxId) {
         super(employeeId, name);
